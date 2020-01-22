@@ -146,7 +146,7 @@ if __name__ == "__main__":
             optimizer.step()
 
             # Log to console and tensorboard
-            print(f'{iter_no}: loss={loss_v:.3f}, reward_bound={reward_b:.1f}')
+            print(f'{iter_no}: loss={loss_v:.3f}, reward_bound={reward_b:.1f}, rewward_mean={reward_m:.1f}')
             writer.add_scalar("loss", loss_v.item(), iter_no)
             writer.add_scalar("reward_bound", reward_b, iter_no)
             writer.add_scalar("reward_mean", reward_m, iter_no)

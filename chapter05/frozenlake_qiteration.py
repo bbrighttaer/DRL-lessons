@@ -2,7 +2,7 @@
 # Project: DRL-lessons
 # Date: 1/21/20
 # Time: 3:31 PM
-# File: frozenlake_qlearning.py
+# File: frozenlake_qiteration.py
 
 
 from __future__ import absolute_import
